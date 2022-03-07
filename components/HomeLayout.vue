@@ -170,14 +170,14 @@ export default {
   data() {
     return {
       SKUs: [
-        { productName: 'T-Shirt', skuName: 'T-Shirt, Red', SKU: 'T-SHRT-RD' },
-        { productName: 'T-Shirt', skuName: 'T-Shirt, Blue', SKU: 'T-SHRT-BLU' }
+        { productName: 'T-Shirt', skuName: 'T-Shirt, Red', SKU: 'T-SHRT_RD' },
+        { productName: 'T-Shirt', skuName: 'T-Shirt, Blue', SKU: 'T-SHRT_BLU' }
       ]
     };
   },
   methods: {
     async getSKUs({ webflowSiteId, webflowAPIKey }) {
-      const res = await fetch('/api/hello', {
+      const res = await fetch('/api/generate-skus', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
