@@ -90,12 +90,18 @@
             Keep update with Webflow E-commerce & Flow Phantom news, articles,
             and updates.
           </p>
-          <form class="mt-4 sm:flex sm:max-w-md">
-            <label for="email-address" class="sr-only">Email address</label>
+
+          <form
+            action="https://forms.userlist.com/58966893-665e-4e14-a7bd-e9d5045c0018/submissions"
+            method="POST"
+            accept-charset="UTF-8"
+            class="mt-4 sm:flex sm:max-w-md"
+          >
+            <label for="fields[email]" class="sr-only">Email address</label>
             <input
-              type="email"
-              name="email-address"
-              id="email-address"
+              type="text"
+              id="fields_email"
+              name="fields[email]"
               autocomplete="email"
               required=""
               class="appearance-none min-w-0 w-full bg-white border border-transparent rounded-md py-2 px-4 text-base text-zinc-900 placeholder-zinc-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-zinc-800 focus:ring-white focus:border-white focus:placeholder-zinc-400"
