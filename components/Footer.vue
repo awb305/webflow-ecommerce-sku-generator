@@ -107,6 +107,12 @@
               class="appearance-none min-w-0 w-full bg-white border border-transparent rounded-md py-2 px-4 text-base text-zinc-900 placeholder-zinc-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-zinc-800 focus:ring-white focus:border-white focus:placeholder-zinc-400"
               placeholder="Enter your email"
             />
+            <input
+              type="hidden"
+              value="true"
+              id="fields_newsletter"
+              name="fields[newsletter]"
+            />
             <div class="mt-3 rounded-md sm:mt-0 sm:ml-3 sm:flex-shrink-0">
               <button
                 type="submit"
